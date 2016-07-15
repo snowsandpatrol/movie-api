@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Movie Search Results</title>
+  </head>
+  <body>
+    <h1>Results</h1>
+    <ul>
+      <% movieList.forEach(function (movie) { %>
+      <li> <%= movie.Title %> </li>
+      <% }) %>
+    </ul>
+
+    <a href="/">Go Back</a>
+    
+  </body>
+</html>
